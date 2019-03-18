@@ -1,0 +1,36 @@
+{
+  "name": "php-dto-file-builder",
+  "version": "0.0.0",
+  "description": "Build PHP Dto files like a pro!",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc --declaration",
+    "test": "jest",
+    "test:update": "jest --updateSnapshot",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "Chris Flowers",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^23.3.7",
+    "@types/node": "^10.12.0",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "ts"
+    ],
+    "testRegex": "^.+\\.spec\\.(ts|js)$",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ]
+  }
+}

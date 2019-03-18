@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`buildClass snapshot variant 1 1`] = `
+"<?php
+
+class MyClassHomeboy {
+    private $one;
+    private $two;
+    private $three;
+    private $four;
+    private $five;
+
+    
+    /**
+     * @return self
+     */
+    public function setOne($one) {
+      $this->one = $one;
+      return $this;
+    }
+      
+    /**
+     * @return self
+     */
+    public function setTwo($two) {
+      $this->two = $two;
+      return $this;
+    }
+      
+    /**
+     * @return self
+     */
+    public function setThree($three) {
+      $this->three = $three;
+      return $this;
+    }
+      
+    /**
+     * @return self
+     */
+    public function setFour($four) {
+      $this->four = $four;
+      return $this;
+    }
+      
+    /**
+     * @return self
+     */
+    public function setFive($five) {
+      $this->five = $five;
+      return $this;
+    }
+  
+    
+    /**
+     * @return 
+     */
+    public function getOne() {
+      return $this->one;
+    }
+      
+    /**
+     * @return 
+     */
+    public function getTwo() {
+      return $this->two;
+    }
+      
+    /**
+     * @return 
+     */
+    public function getThree() {
+      return $this->three;
+    }
+      
+    /**
+     * @return 
+     */
+    public function getFour() {
+      return $this->four;
+    }
+      
+    /**
+     * @return 
+     */
+    public function getFive() {
+      return $this->five;
+    }
+  
+}
+"
+`;
